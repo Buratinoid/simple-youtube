@@ -1,5 +1,5 @@
-import { reloadResults } from '/scripts/animation.js';
-import { searchVideo } from '/scripts/search.js';
+import { reloadResults } from 'scripts/animation.js';
+import { searchVideo } from 'scripts/search.js';
 
 const createHomePage = () => {
     let navBar = document.createElement('nav');
@@ -15,7 +15,7 @@ const createHomePage = () => {
         searchButton.className = 'searchButton';
     
     let searchIcon = document.createElement('img');
-        searchIcon.setAttribute('src', './src/icons/search.png')
+        searchIcon.setAttribute('src', 'src/icons/search.png')
     
     let pageBar = document.createElement('div');
         pageBar.className = 'pageNumberBox';
@@ -33,7 +33,7 @@ const createHomePage = () => {
         nextPage.innerText = '>';
   
     let homePageLogo = document.createElement('img');
-    let urlLogo = './src/icons/logo.png';
+    let urlLogo = 'src/icons/logo.png';
         homePageLogo.className = 'homePageLogo';
         homePageLogo.setAttribute('src', urlLogo);
     
