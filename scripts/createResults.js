@@ -1,5 +1,5 @@
-import {youtubeDataArray} from 'scripts/data.js';
-import {requestSend} from 'scripts/request.js';
+import {youtubeDataArray} from './data.js';
+import {requestSend} from './request.js';
 
 let pageNumber = 1;
 

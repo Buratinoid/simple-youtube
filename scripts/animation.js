@@ -1,4 +1,4 @@
-import { addSearchResults, pageNumber } from 'scripts/createResults.js'
+import { addSearchResults, pageNumber } from './createResults.js'
 
 const reduceNav = () => {
     let nav = document.querySelector('nav');
