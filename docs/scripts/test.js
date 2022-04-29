@@ -1,4 +1,4 @@
-import { createYoutubeDataArray } from '/scripts/request.js';
+import { createYoutubeDataArray } from 'scripts/request.js';
 
 let youtubeData = {
       "kind": "youtube#videoListResponse",

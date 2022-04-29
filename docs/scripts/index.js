@@ -1,5 +1,5 @@
-import { resizePage } from "/scripts/resizePage.js";
-import { createHomePage } from "/scripts/homePage.js";
+import { resizePage } from "scripts/resizePage.js";
+import { createHomePage } from "scripts/homePage.js";
 
 createHomePage();
 resizePage();

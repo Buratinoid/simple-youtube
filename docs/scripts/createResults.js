@@ -1,5 +1,5 @@
-import {youtubeDataArray} from '/scripts/data.js';
-import {requestSend} from '/scripts/request.js';
+import {youtubeDataArray} from 'scripts/data.js';
+import {requestSend} from 'scripts/request.js';
 
 let pageNumber = 1;
 
@@ -81,13 +81,13 @@ async function addSearchResults (direction) {
      numInYoutubeDataArray.innerText = `${start + 1}`;
  
      let channelIcon = document.createElement('img')
-     channelIcon.setAttribute('src', './src/icons/channel.png');
+     channelIcon.setAttribute('src', 'src/icons/channel.png');
 
      let dateIcon = document.createElement('img')
-     dateIcon.setAttribute('src', './src/icons/date.png');
+     dateIcon.setAttribute('src', 'src/icons/date.png');
 
      let viewsIcon = document.createElement('img')
-     viewsIcon.setAttribute('src', './src/icons/views.png');
+     viewsIcon.setAttribute('src', 'src/icons/views.png');
      
      resultsBox.append(searchResult);
      searchResult.append(

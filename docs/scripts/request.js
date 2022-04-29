@@ -1,9 +1,9 @@
 import { 
         youtubeDataArray,
         userAPIKey 
-                          } from '/scripts/data.js';
-import { addSearchResults } from '/scripts/createResults.js';
-import { testJSON } from '/scripts/test.js';
+                          } from 'scripts/data.js';
+import { addSearchResults } from 'scripts/createResults.js';
+import { testJSON } from 'scripts/test.js';
 
 let pageToken = '';
 
@@ -86,7 +86,7 @@ const requestSend = async(param = 3) => {
 
 function createYoutubeDataArray (youtubeData) {
     let { items } = youtubeData;
-    let noImage = './src/icons/noImage.png';
+    let noImage = 'src/icons/noImage.png';
 
     for (let item of items) {
       let { 
