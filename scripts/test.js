@@ -1,4 +1,4 @@
-import { createYoutubeDataArray } from 'scripts/request.js';
+import { createYoutubeDataArray } from './request.js';
 
 let youtubeData = {
       "kind": "youtube#videoListResponse",
@@ -1718,7 +1718,7 @@ let youtubeData = {
         "totalResults": 27,
         "resultsPerPage": 27
       }
-    }
+}
   
 const testJSON = () => {
   youtubeData = JSON.parse(JSON.stringify(youtubeData));

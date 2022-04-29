@@ -1,5 +1,5 @@
-import { reloadResults } from 'scripts/animation.js';
-import { searchVideo } from 'scripts/search.js';
+import { reloadResults } from './animation.js';
+import { searchVideo } from './search.js';
 
 const createHomePage = () => {
     let navBar = document.createElement('nav');

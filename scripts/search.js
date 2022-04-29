@@ -6,10 +6,10 @@ import {
         hideResults,
         showResults,
         showNumberBar 
-                      } from 'scripts/animation.js';
-import { requestSend } from 'scripts/request.js';
-import { deleteResults } from 'scripts/createResults.js';
-import { youtubeDataArray } from 'scripts/data.js';
+                      } from './animation.js';
+import { requestSend } from './request.js';
+import { deleteResults } from './createResults.js';
+import { youtubeDataArray } from './data.js';
 
 function searchVideo () {
 // Параметры requestSend(): 

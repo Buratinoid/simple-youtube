@@ -1,9 +1,9 @@
 import { 
         youtubeDataArray,
         userAPIKey 
-                          } from 'scripts/data.js';
-import { addSearchResults } from 'scripts/createResults.js';
-import { testJSON } from 'scripts/test.js';
+                          } from './data.js';
+import { addSearchResults } from './createResults.js';
+import { testJSON } from './test.js';
 
 let pageToken = '';
 
